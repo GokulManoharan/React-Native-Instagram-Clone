@@ -13,7 +13,8 @@ import Stories from "../stories/index"
 // import styles from "./styles.js"
 
 const data = [
-    {
+    {   
+        id: '1',
         user: {
             imageUri: profilePicture3,
             name: "Lucas Williams"
@@ -25,6 +26,7 @@ const data = [
     
     },
     {
+        id:'2',
         user: {
             imageUri: profilePicture2,
             name: "Sam Karran"
@@ -36,6 +38,7 @@ const data = [
     
     },
     {
+        id:'3',
         user: {
             imageUri: profilePicture4,
             name: "Shane Watson"
@@ -47,6 +50,7 @@ const data = [
     
     },
     {
+        id:'4',
         user: {
             imageUri: profilePicture1,
             name: "Kane Williamson"
@@ -58,11 +62,11 @@ const data = [
     
     }
 ]
-const Feed = props => (
+const Feed = _ => (
     <View>
         <FlatList
             data={data}
-            keyExtractor={({ user }) => user.name}
+            keyExtractor={({ id }) => id}
             showsHorizontalScrollIndicator={false}
             renderItem={({ item }) => <Post post={item} />}
             ListHeaderComponent={Stories}

@@ -1,0 +1,14 @@
+import React from 'react';
+import { View, Text, SafeAreaView } from "react-native";
+const ProfileScreen = _ => {
+
+    return (
+        <SafeAreaView>
+            <View style={{ backgroundColor: "blue", height: 1500 }}>
+                <Text style={{textAlign: "center", marginTop: 300, fontSize: 30, color: "white" }}>Profile</Text>
+            </View>
+        </SafeAreaView>
+    )
+}
+
+export default ProfileScreen

@@ -3,7 +3,6 @@ import { View, Text } from 'react-native'
 import PostHeader from "./components/header/index"
 import PostFooter from "./components/footer/index"
 import PostBody from "./components/body/index"
-import profilePicture4 from "../../assets/profile-picture/profile-picture4.jpg"
 // import styles from "./styles.js"
 
 const Post = ({post}) => {

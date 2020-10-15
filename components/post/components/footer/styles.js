@@ -14,6 +14,19 @@ const styles = StyleSheet.create({
     postedAt: {
         margin: 3,
         color: "#8c8c8c"
+    },
+    iconsContainer: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        padding: 5
+    },
+    leftIcons:{
+        flexDirection: 'row',
+        width: 120,
+        justifyContent: 'space-between'
+    },
+    rightIcons: {
+        // marginRight: 10
     }
 });
 
