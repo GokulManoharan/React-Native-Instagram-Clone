@@ -9,7 +9,7 @@ import postPicture2 from "../../assets/profile-picture/post-picture2.jpg"
 import postPicture3 from "../../assets/profile-picture/post-picture3.jpg"
 import postPicture4 from "../../assets/profile-picture/post-picture4.jpg"
 import Post from "../post/index"
-import Stories from "../stories/index"
+import Stories from "../userStoriesPreview/index"
 // import styles from "./styles.js"
 
 const data = [
@@ -29,7 +29,7 @@ const data = [
         id:'2',
         user: {
             imageUri: profilePicture2,
-            name: "Sam Karran"
+            name: "Sam Curran"
         },
         imageUri: postPicture2,
         caption: "All is well #instagram #welcomeall",
