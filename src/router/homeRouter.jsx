@@ -3,7 +3,6 @@ import { Image } from 'react-native';
 import { Feather, SimpleLineIcons } from '@expo/vector-icons';
 import { createStackNavigator } from '@react-navigation/stack';
 import HomeScreen from '../screens/HomeScreen/index';
-import StoryScreen from "../screens/StoryScreen/index";
 
 //Asset imports
 import logo from "../../assets/logo.png"

@@ -42,7 +42,7 @@ const Stories = props => (
     <View style={styles.container}>
         <FlatList
             data={data}
-            keyExtractor={({ name }) => name}
+            keyExtractor={(id) =>id}
             horizontal
             showsHorizontalScrollIndicator={false}
             renderItem={({ item }) => <Story story={item} />}
